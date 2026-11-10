@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>YL Yakiniku คำสั่ง</title><link rel="icon" href="icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@500;700;800&family=Sarabun:wght@400;600&display=swap">
+<style>
+:root{--bg:#1a0f09;--panel:#24150d;--ink:#f6e7cf;--muted:#c9ab8d;--line:#4a3020;--gold:#d6aa5c;--red:#b3261e;color-scheme:dark}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Sarabun,Kanit,system-ui,sans-serif}
+main{max-width:1080px;margin:0 auto;padding:24px max(16px,env(safe-area-inset-left)) 64px;display:grid;gap:32px}
+h1,h2{font-family:Kanit,sans-serif;margin:0}h1{font-size:clamp(28px,5vw,42px)}h2{font-size:24px;display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}h2 small{font:400 14px Sarabun;color:var(--muted)}
+.hero img{width:100%;border-radius:16px;display:block}.hero p{color:var(--muted);margin:8px 0 0}
+section{display:grid;gap:12px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.cmd{margin:0;background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.clip{aspect-ratio:16/9;background:#000}.clip video{width:100%;height:100%;object-fit:cover;display:block}
+figcaption{padding:12px 14px 14px;display:grid;gap:8px}figcaption p{margin:0}
+.copy{display:flex;align-items:center;justify-content:space-between;gap:8px;width:100%;padding:8px 12px;border-radius:10px;border:1px solid var(--gold);background:#120a06;color:var(--ink);cursor:pointer;font:600 15px Kanit,sans-serif}
+.copy code{font:700 17px ui-monospace,monospace;color:#ffd36a}.copy span{font-size:13px;color:var(--gold)}.copy.ok span{color:#6dff9a}
+.gifts{display:flex;flex-wrap:wrap;gap:6px}.gift{display:inline-flex;align-items:center;gap:6px;padding:3px 10px 3px 4px;border-radius:99px;background:#3a2418;font-size:13px}.gift img{width:24px;height:24px}
+footer{color:var(--muted);font-size:13px}
+</style></head><body><main>
+<header class="hero"><img src="cover.jpg" alt="YL Yakiniku"><h1>YL Yakiniku · คำสั่ง</h1>
+<p>กดก๊อปคำสั่งไปใส่ในกฎของขวัญ · เลขหลังคำสั่งเปลี่ยนได้ · ป้ายของขวัญ = ของในพรีเซ็ตทางการ</p></header>
+<section><h2>🥩 สั่งเนื้อ <small>คนส่ง = ลูกค้าเข้าร้าน รอรับเนื้อตามจำนวน</small></h2><div class="grid"><figure class="cmd"><div class="clip"><video src="media/play.mp4" poster="media/play.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><button class="copy" data-c="set 1"><code>set 1</code><span>ก๊อป</span></button><p>สั่งเนื้อรวม หมูสลับวัว · เลข = จำนวนชิ้น</p><div class="gifts"><span class="gift"><img src="gifts/5655.webp" alt="">กุหลาบ · 1 เหรียญ</span><span class="gift">หัวใจครบ 100</span><span class="gift">กดติดตาม</span></div></figcaption></figure>
+<figure class="cmd"><div class="clip"><video src="media/play.mp4" poster="media/play.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><button class="copy" data-c="pork 1"><code>pork 1</code><span>ก๊อป</span></button><p>หมูสามชั้น · สุกช้า ต้องรอสุกจริง</p></figcaption></figure>
+<figure class="cmd"><div class="clip"><video src="media/play.mp4" poster="media/play.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><button class="copy" data-c="beef 1"><code>beef 1</code><span>ก๊อป</span></button><p>เนื้อวัว · สุกไว ต้องรีบยก</p></figcaption></figure>
+<figure class="cmd"><div class="clip"><video src="media/play.mp4" poster="media/play.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><button class="copy" data-c="wagyu 1"><code>wagyu 1</code><span>ก๊อป</span></button><p>วากิว · ช่วงกำลังดีสั้นสุด</p></figcaption></figure></div></section>
+<section><h2>🛡️ ช่วยปิ้ง <small>ช่วยสตรีมเมอร์ให้ทัน</small></h2><div class="grid"><figure class="cmd"><div class="clip"><video src="media/tongs.mp4" poster="media/tongs.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><button class="copy" data-c="tongs 5"><code>tongs 5</code><span>ก๊อป</span></button><p>ช่วยปิ้ง: เนื้อที่สุกพอดีถูกคีบเสิร์ฟเอง · เลข = จำนวนชิ้น</p><div class="gifts"><span class="gift"><img src="gifts/6064.webp" alt="">GG · 1 เหรียญ</span></div></figcaption></figure>
+<figure class="cmd"><div class="clip"><video src="media/staff.mp4" poster="media/staff.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><button class="copy" data-c="staff 16"><code>staff 16</code><span>ก๊อป</span></button><p>พนักงานมาช่วยปิ้ง ใส่เตา กลับ ยก เสิร์ฟเอง · เลข = วินาที (นับเฉพาะตอนมีลูกค้า)</p></figcaption></figure>
+<figure class="cmd"><div class="clip"><video src="media/staff.mp4" poster="media/staff.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><button class="copy" data-c="random help"><code>random help</code><span>ก๊อป</span></button><p>สุ่มช่วย: ช่วยปิ้ง / พนักงาน / เร่งไฟ / พลิกทุกชิ้น / พัดลม</p><div class="gifts"><span class="gift"><img src="gifts/7934.webp" alt="">ใจส้ม · 1 เหรียญ</span></div></figcaption></figure>
+<figure class="cmd"><div class="clip"><video src="media/staff.mp4" poster="media/staff.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><button class="copy" data-c="random help good"><code>random help good</code><span>ก๊อป</span></button><p>สุ่มช่วย (ของดี): ออกพนักงาน กับ ช่วยปิ้ง บ่อยกว่า</p><div class="gifts"><span class="gift"><img src="gifts/13000.webp" alt="">Baby Hippo · 15 เหรียญ</span></div></figcaption></figure>
+<figure class="cmd"><div class="clip"><video src="media/speed.mp4" poster="media/speed.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><button class="copy" data-c="speed 30"><code>speed 30</code><span>ก๊อป</span></button><p>เร่งไฟ เนื้อสุกไวขึ้น · เลข = วินาที</p></figcaption></figure>
+<figure class="cmd"><div class="clip"><video src="media/fan.mp4" poster="media/fan.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><button class="copy" data-c="fan"><code>fan</code><span>ก๊อป</span></button><p>พัดลม: เตาเย็นลง เนื้อสุกช้าลง 6 วิ (ซื้อเวลาตอนเนื้อเต็มเตา)</p></figcaption></figure>
+<figure class="cmd"><div class="clip"><video src="media/flip.mp4" poster="media/flip.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><button class="copy" data-c="flip"><code>flip</code><span>ก๊อป</span></button><p>พลิกทุกชิ้นบนเตาพร้อมกัน</p></figcaption></figure></div></section>
+<section><h2>💥 แกล้ง <small>ป่วนเชฟ</small></h2><div class="grid"><figure class="cmd"><div class="clip"><video src="media/fire.mp4" poster="media/fire.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><button class="copy" data-c="random prank 1 10"><code>random prank 1 10</code><span>ก๊อป</span></button><p>สุ่มแกล้ง: ราดน้ำมัน / ควันบัง / ลูกค้าแห่ / ถ่านลุกโชน · จำนวนสุ่มระหว่าง 2 เลข</p></figcaption></figure>
+<figure class="cmd"><div class="clip"><video src="media/oil.mp4" poster="media/oil.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><button class="copy" data-c="oil"><code>oil</code><span>ก๊อป</span></button><p>ราดน้ำมัน ไฟลุก เนื้อสุกไว ไหม้ง่าย</p></figcaption></figure>
+<figure class="cmd"><div class="clip"><video src="media/smoke.mp4" poster="media/smoke.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><button class="copy" data-c="smoke"><code>smoke</code><span>ก๊อป</span></button><p>ควันฟุ้งบังเตา</p></figcaption></figure>
+<figure class="cmd"><div class="clip"><video src="media/rush.mp4" poster="media/rush.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><button class="copy" data-c="rush"><code>rush</code><span>ก๊อป</span></button><p>ลูกค้าแห่เข้าร้าน สั่งเนื้อสุ่ม 5 ชิ้น</p></figcaption></figure></div></section>
+<section><h2>🎉 อีเวนต์ใหญ่</h2><div class="grid"><figure class="cmd"><div class="clip"><video src="media/fire.mp4" poster="media/fire.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><button class="copy" data-c="fire"><code>fire</code><span>ก๊อป</span></button><p>ถ่านลุกโชน 10 วิ ทุกชิ้นสุกไว ต้องคีบรัว</p></figcaption></figure>
+<figure class="cmd"><div class="clip"><video src="media/feast.mp4" poster="media/feast.jpg" muted loop playsinline preload="none"></video></div>
+<figcaption><button class="copy" data-c="feast"><code>feast</code><span>ก๊อป</span></button><p>งานเลี้ยง 20 วิ ไฟประดับทั้งร้าน</p></figcaption></figure></div></section>
+<footer>YL Entertainment · เกมเนื้อย่าง YL</footer></main>
+<script>
+document.querySelectorAll('.copy').forEach(b=>b.onclick=async()=>{try{await navigator.clipboard.writeText(b.dataset.c);b.classList.add('ok');b.querySelector('span').textContent='ก๊อปแล้ว';setTimeout(()=>{b.classList.remove('ok');b.querySelector('span').textContent='ก๊อป'},1500)}catch{const r=document.createRange();r.selectNodeContents(b.querySelector('code'));getSelection().removeAllRanges();getSelection().addRange(r)}});
+const io=new IntersectionObserver(es=>es.forEach(e=>{const v=e.target;if(e.isIntersecting){v.preload='auto';v.play().catch(()=>{})}else v.pause()}),{threshold:.4});document.querySelectorAll('video').forEach(v=>io.observe(v));
+</script></body></html>
